@@ -1,5 +1,5 @@
 {
-  "name": "dynamodb",
+  "name": "@volkswagen-group-unity-framework/dynamodb",
   "version": "1.3.0",
   "contributors": [
     "Ryan Fitzgerald <ryan@codebrewstudios.com>",
@@ -12,7 +12,7 @@
     "test-standalone": "npm run dynamodb-local & sleep 10 && npm test",
     "dynamodb-local": "./test/bin/dynamodb-local"
   },
-  "repository": "git://github.com/baseprime/dynamodb.git",
+  "repository": "git://github.com/volkswagen-group-unity-framework/dynamodb.git",
   "keywords": [
     "datamapper",
     "DynamoDB",
@@ -25,20 +25,20 @@
   },
   "license": "MIT",
   "dependencies": {
-    "joi": "^17.2.1",
+    "joi": "^17.3.0",
     "async": "^2.6.3",
-    "aws-sdk": "^2.756.0",
-    "bunyan": "^1.8.14",
+    "aws-sdk": "^2.829.0",
+    "bunyan": "^1.8.15",
     "lodash": "^4.17.20",
-    "stream-to-promise": "^2.2.0",
-    "uuid": "^7.0.3"
+    "stream-to-promise": "^3.0.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "jshint": "^2.12.0",
     "jshint-stylish": "^2.2.1",
-    "mocha": "^7.2.0",
+    "mocha": "^8.2.1",
     "nyc": "^15.1.0",
-    "sinon": "^9.0.3"
+    "sinon": "^9.2.3"
   }
 }
